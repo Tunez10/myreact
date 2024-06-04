@@ -40,6 +40,8 @@ export default function Login() {
             <button className='border-2 bg-blue-600 text-white px-40 py-3 w-full hover:bg-blue-500'>Login</button><br />
             <p className='text-center'>Don't have an account? <Link className=' hover:text-blue-500' to='/register'>Register Here</Link></p>
             <p className='text-center'><Link className=' hover:text-blue-500' to='/reset'>Forgot Password?</Link></p>
+            <p>Thank you!!</p>
+
         </form>
     </div>
   )
