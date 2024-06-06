@@ -13,7 +13,7 @@ export default function Reset() {
         e.preventDefault()
         sendPasswordResetEmail(auth, email)
         .then(()=>{
-            toast.success('check your email')
+            toast.success('A link has been sent to your email')
         })
         .catch((error) =>{
             toast.error(error.message)

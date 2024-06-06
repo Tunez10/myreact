@@ -30,8 +30,6 @@ export default function Register() {
             toast.error('not created')
             
         })
-        
-       
        
         setEmail('')
         setPassword('')
